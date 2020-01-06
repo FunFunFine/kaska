@@ -1,0 +1,232 @@
+{
+    "version" : "1.1.2",
+    "project" : {
+        "name" : "core",
+        "directory" : "E:\\kaska\\kaska-core",
+        "sources" : [
+            "E:\\kaska\\kaska-core\\src\\main\\scala-2.12",
+            "E:\\kaska\\kaska-core\\src\\main\\scala",
+            "E:\\kaska\\kaska-core\\src\\main\\java",
+            "E:\\kaska\\kaska-core\\target\\scala-2.12\\src_managed\\main"
+        ],
+        "dependencies" : [
+        ],
+        "classpath" : [
+            "E:\\Users\\Funfine\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_2.12\\2.1.0\\cats-kernel_2.12-2.1.0.jar",
+            "E:\\Users\\Funfine\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalactic\\scalactic_2.12\\3.1.0\\scalactic_2.12-3.1.0.jar",
+            "E:\\Users\\Funfine\\.sbt\\boot\\scala-2.12.10\\lib\\scala-reflect.jar",
+            "E:\\Users\\Funfine\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-macros_2.12\\2.1.0\\cats-macros_2.12-2.1.0.jar",
+            "E:\\Users\\Funfine\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_2.12\\2.1.0\\cats-core_2.12-2.1.0.jar",
+            "E:\\Users\\Funfine\\.sbt\\boot\\scala-2.12.10\\lib\\scala-library.jar"
+        ],
+        "out" : "E:\\kaska\\.bloop\\core",
+        "classesDir" : "E:\\kaska\\.bloop\\core\\scala-2.12\\classes",
+        "resources" : [
+            "E:\\kaska\\kaska-core\\src\\main\\resources",
+            "E:\\kaska\\kaska-core\\target\\scala-2.12\\resource_managed\\main"
+        ],
+        "scala" : {
+            "organization" : "org.scala-lang",
+            "name" : "scala-compiler",
+            "version" : "2.12.10",
+            "options" : [
+                "-P:semanticdb:synthetics:on",
+                "-P:semanticdb:failures:warning",
+                "-P:semanticdb:sourceroot:E:\\kaska",
+                "-Yrangepos",
+                "-Xplugin-require:semanticdb",
+                "-Xplugin:E:\\Users\\Funfine\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalameta\\semanticdb-scalac_2.12.10\\4.2.3\\semanticdb-scalac_2.12.10-4.2.3.jar"
+            ],
+            "jars" : [
+                "E:\\Users\\Funfine\\.sbt\\boot\\scala-2.12.10\\lib\\jansi.jar",
+                "E:\\Users\\Funfine\\.sbt\\boot\\scala-2.12.10\\lib\\jline.jar",
+                "E:\\Users\\Funfine\\.sbt\\boot\\scala-2.12.10\\lib\\scala-compiler.jar",
+                "E:\\Users\\Funfine\\.sbt\\boot\\scala-2.12.10\\lib\\scala-library.jar",
+                "E:\\Users\\Funfine\\.sbt\\boot\\scala-2.12.10\\lib\\scala-reflect.jar",
+                "E:\\Users\\Funfine\\.sbt\\boot\\scala-2.12.10\\lib\\scala-xml_2.12.jar"
+            ],
+            "setup" : {
+                "order" : "mixed",
+                "addLibraryToBootClasspath" : true,
+                "addCompilerToClasspath" : false,
+                "addExtraJarsToClasspath" : false,
+                "manageBootClasspath" : true,
+                "filterLibraryFromClasspath" : true
+            }
+        },
+        "java" : {
+            "options" : [
+            ]
+        },
+        "test" : {
+            "frameworks" : [
+                {
+                    "names" : [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options" : {
+                "excludes" : [
+                ],
+                "arguments" : [
+                ]
+            }
+        },
+        "platform" : {
+            "name" : "jvm",
+            "config" : {
+                "home" : "E:\\Program Files\\Java\\jdk1.8.0_211\\jre",
+                "options" : [
+                ]
+            },
+            "mainClass" : [
+            ]
+        },
+        "resolution" : {
+            "modules" : [
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-library",
+                    "version" : "2.12.10",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-library",
+                            "path" : "E:\\Users\\Funfine\\.sbt\\boot\\scala-2.12.10\\lib\\scala-library.jar"
+                        },
+                        {
+                            "name" : "scala-library",
+                            "classifier" : "sources",
+                            "path" : "E:\\Users\\Funfine\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.10\\scala-library-2.12.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.typelevel",
+                    "name" : "cats-kernel_2.12",
+                    "version" : "2.1.0",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "cats-kernel_2.12",
+                            "path" : "E:\\Users\\Funfine\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_2.12\\2.1.0\\cats-kernel_2.12-2.1.0.jar"
+                        },
+                        {
+                            "name" : "cats-kernel_2.12",
+                            "classifier" : "sources",
+                            "path" : "E:\\Users\\Funfine\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_2.12\\2.1.0\\cats-kernel_2.12-2.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scalactic",
+                    "name" : "scalactic_2.12",
+                    "version" : "3.1.0",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "scalactic_2.12",
+                            "path" : "E:\\Users\\Funfine\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalactic\\scalactic_2.12\\3.1.0\\scalactic_2.12-3.1.0.jar"
+                        },
+                        {
+                            "name" : "scalactic_2.12",
+                            "classifier" : "sources",
+                            "path" : "E:\\Users\\Funfine\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalactic\\scalactic_2.12\\3.1.0\\scalactic_2.12-3.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-reflect",
+                    "version" : "2.12.10",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-reflect",
+                            "path" : "E:\\Users\\Funfine\\.sbt\\boot\\scala-2.12.10\\lib\\scala-reflect.jar"
+                        },
+                        {
+                            "name" : "scala-reflect",
+                            "classifier" : "sources",
+                            "path" : "E:\\Users\\Funfine\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.12.10\\scala-reflect-2.12.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.typelevel",
+                    "name" : "cats-macros_2.12",
+                    "version" : "2.1.0",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "cats-macros_2.12",
+                            "path" : "E:\\Users\\Funfine\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-macros_2.12\\2.1.0\\cats-macros_2.12-2.1.0.jar"
+                        },
+                        {
+                            "name" : "cats-macros_2.12",
+                            "classifier" : "sources",
+                            "path" : "E:\\Users\\Funfine\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-macros_2.12\\2.1.0\\cats-macros_2.12-2.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.typelevel",
+                    "name" : "cats-core_2.12",
+                    "version" : "2.1.0",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "cats-core_2.12",
+                            "path" : "E:\\Users\\Funfine\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_2.12\\2.1.0\\cats-core_2.12-2.1.0.jar"
+                        },
+                        {
+                            "name" : "cats-core_2.12",
+                            "classifier" : "sources",
+                            "path" : "E:\\Users\\Funfine\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_2.12\\2.1.0\\cats-core_2.12-2.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-library",
+                    "version" : "2.12.10",
+                    "configurations" : "optional",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-library",
+                            "path" : "E:\\Users\\Funfine\\.sbt\\boot\\scala-2.12.10\\lib\\scala-library.jar"
+                        },
+                        {
+                            "name" : "scala-library",
+                            "classifier" : "sources",
+                            "path" : "E:\\Users\\Funfine\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.10\\scala-library-2.12.10-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
