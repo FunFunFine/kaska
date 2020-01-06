@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="postfixOps" value="true" />
+    <option name="higherKinds" value="true" />
+    <option name="existentials" value="true" />
+    <option name="experimental" value="true" />
+    <profile name="sbt 1" modules="core,docs,kaska_297">
+      <option name="higherKinds" value="true" />
+    </profile>
+    <profile name="sbt 2" modules="kaska">
+      <plugins>
+        <plugin path="E:\Users\Funfine\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\spire-math\kind-projector_2.12\0.9.3\kind-projector_2.12-0.9.3.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 3" modules="root">
+      <option name="higherKinds" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-Xlint" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-Ypartial-unification" />
+      </parameters>
+      <plugins>
+        <plugin path="E:\Users\Funfine\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\spire-math\kind-projector_2.12\0.9.3\kind-projector_2.12-0.9.3.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>
