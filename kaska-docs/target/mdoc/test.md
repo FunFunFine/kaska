@@ -2,12 +2,12 @@
 
 To install my project
 ```scala
-libraryDependencies += "com" % "lib" % "2"
+libraryDependencies += "com" % "lib" % "22"
 ```
 
 ```scala
-val x = 1
-// x: Int = 1
+val x = 4
+// x: Int = 4
 List(x, x)
-// res0: List[Int] = List(1, 1)
+// res0: List[Int] = List(4, 4)
 ```
