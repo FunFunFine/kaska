@@ -787,3 +787,17 @@ BSP initialization handshake complete.
 INFO  time: imported build in 0.68s
 INFO  time: indexed workspace in 5.17s
 WARN  no build target: 
+INFO  time: initialize in 0.43s
+INFO  skipping build import with status 'Installed'
+Jan 07, 2020 2:26:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+INFO  running embedded 'bloop bsp --protocol tcp --host 127.0.0.1 --port 21722'
+The server is listening for incoming connections at tcp://127.0.0.1:21722...
+Accepted incoming BSP client connection at tcp://127.0.0.1:21722
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Users\Funfine\AppData\Local\scalameta\metals\cache\bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 11s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.76s
+INFO  time: indexed workspace in 10s
+WARN  no build target: 
