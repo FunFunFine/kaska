@@ -1,1 +1,19 @@
-[debug] Jar uptodate: E:\kaska\kaska\kaska-core\target\scala-2.12\kaska_2.12-0.1.0-SNAPSHOT.jar
+[0m[[0m[0mdebug[0m] [0m[0mPackaging E:\k3\kaska\kaska-core\target\scala-2.12\kaska_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  E:\k3\kaska\kaska-core\target\scala-2.12\classes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  E:\k3\kaska\kaska-core\target\scala-2.12\classes\com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\funfunfine[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  E:\k3\kaska\kaska-core\target\scala-2.12\classes\com\funfunfine[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\funfunfine\kaska[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  E:\k3\kaska\kaska-core\target\scala-2.12\classes\com\funfunfine\kaska[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\funfunfine\kaska\core[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  E:\k3\kaska\kaska-core\target\scala-2.12\classes\com\funfunfine\kaska\core[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\funfunfine\kaska\core\Tes$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  E:\k3\kaska\kaska-core\target\scala-2.12\classes\com\funfunfine\kaska\core\Tes$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\funfunfine\kaska\core\Tes$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  E:\k3\kaska\kaska-core\target\scala-2.12\classes\com\funfunfine\kaska\core\Tes$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\funfunfine\kaska\core\Tes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  E:\k3\kaska\kaska-core\target\scala-2.12\classes\com\funfunfine\kaska\core\Tes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
