@@ -109,7 +109,6 @@ project/plugins/project/
 .history
 .cache
 .lib/
-!*.md
 ### Scala ###
 *.class
 *.log
@@ -125,4 +124,5 @@ project/plugins/project/
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 
-# End of https://www.gitignore.io/api/sbt,scala,bloop,metals,jetbrains,visualstudiocode
+# End of https:!
+!*.md
