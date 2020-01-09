@@ -2,7 +2,7 @@
 
 # 0. О проекте
 Теория взята из следующих книг:
-* [Графы и матроиды, Асанов М.О., Баранский В.А](./books/M.O.Asanov, V.A.Baranskii, V.V - Shievchienko Iu. V._1426.pdf)
+* [Графы и матроиды, Асанов М.О., Баранский В.А](./books/"M.O.Asanov, V.A.Baranskii, V.V - Shievchienko Iu. V._1426.pdf")
 * [Комбинаторные алгоритмы, Асанов М.О., Расин В.В.](./books/asanov-mo-rasin-vv-kombinatornye-algoritmy_fd508acd7ea.pdf)
 
 Про редактирование можно прочитать по [ссылке](./editing.md)
